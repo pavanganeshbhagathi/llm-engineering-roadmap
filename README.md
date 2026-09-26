@@ -18,7 +18,7 @@
 
 ---
 
-## 🎯 Mission
+# 🎯 Mission
 
 > **Don't just learn AI. Learn to engineer AI systems.**
 
@@ -46,75 +46,82 @@ Optimization
 Production
 ```
 
-By the end, I want to be able to **design, build, deploy, scale, monitor, secure, and maintain production-grade LLM and Agentic AI systems independently.**
+By the end, I want to be able to:
+
+> **Design → Build → Deploy → Scale → Monitor → Secure → Optimize → Maintain**
+
+production-grade LLM and Agentic AI systems independently.
 
 ---
 
-# 🗺️ The Engineering Journey
+# 🗺️ Engineering Journey
 
 ```text
-                         🧠 LLM FOUNDATIONS
-                                  │
-                                  ▼
-                         📚 RAG ENGINEERING
-                                  │
-                                  ▼
-                         🤖 AGENTIC AI
-                                  │
-                                  ▼
-                              🔌 MCP
-                                  │
-                                  ▼
-                       🏗️ AI ARCHITECTURE
-                                  │
-                                  ▼
-                         📏 AI EVALUATION
-                                  │
-                                  ▼
-                         ⚙️ LLMOps / AIOps
-                                  │
-                                  ▼
-                       ⚡ LLM INFERENCE
-                                  │
-                                  ▼
-                         🔐 AI SECURITY
-                                  │
-                                  ▼
-                     📊 OBSERVABILITY & COST
-                                  │
-                                  ▼
-                       🚀 PRODUCTION SYSTEMS
+                    🧠 LLM FOUNDATIONS
+                            │
+                            ▼
+                    📚 RAG ENGINEERING
+                            │
+                            ▼
+                    🤖 AGENTIC AI
+                            │
+                            ▼
+                         🔌 MCP
+                            │
+                            ▼
+                   🏗️ AI ARCHITECTURE
+                            │
+                            ▼
+                    📏 AI EVALUATION
+                            │
+                            ▼
+                    ⚙️ LLMOps / AIOps
+                            │
+                            ▼
+                    ⚡ LLM INFERENCE
+                            │
+                            ▼
+                     🔐 AI SECURITY
+                            │
+                            ▼
+                 📊 OBSERVABILITY & COST
+                            │
+                            ▼
+                  🚀 PRODUCTION PROJECTS
+                            │
+                            ▼
+              🏆 PRODUCTION AI ENGINEER
 ```
 
 ---
 
 # 📌 Roadmap at a Glance
 
-| #  | Stage              | Main Focus                    | Outcome                            |
-| -- | ------------------ | ----------------------------- | ---------------------------------- |
-| 01 | 🧠 LLM Foundations | Transformers, Fine-tuning     | Understand LLM internals           |
-| 02 | 📚 RAG             | Retrieval & Knowledge Systems | Build production RAG               |
-| 03 | 🤖 Agentic AI      | Agents & Tools                | Build intelligent workflows        |
-| 04 | 🔌 MCP             | AI ↔ Tools & Systems          | Connect agents to external systems |
-| 05 | 🏗️ Architecture   | System Design                 | Design production AI systems       |
-| 06 | 📏 Evaluation      | Quality & Reliability         | Measure AI performance             |
-| 07 | ⚙️ LLMOps          | Deployment & Infrastructure   | Operate AI in production           |
-| 08 | ⚡ Inference        | Performance & Scaling         | Optimize LLM serving               |
-| 09 | 🔐 Security        | AI Threats & Protection       | Secure AI systems                  |
-| 10 | 📊 Observability   | Monitoring & Cost             | Operate AI reliably                |
-| 11 | 🚀 Projects        | End-to-End Systems            | Prove the skills                   |
+| #  | Stage                  | Main Focus                    | Outcome                            |
+| -- | ---------------------- | ----------------------------- | ---------------------------------- |
+| 01 | 🧠 LLM Foundations     | Transformers, Fine-tuning     | Understand LLM internals           |
+| 02 | 📚 RAG Engineering     | Retrieval & Knowledge Systems | Build production RAG               |
+| 03 | 🤖 Agentic AI          | Agents & Tools                | Build intelligent workflows        |
+| 04 | 🔌 MCP                 | AI ↔ Tools & Systems          | Connect agents to external systems |
+| 05 | 🏗️ AI Architecture    | System Design                 | Design production AI systems       |
+| 06 | 📏 Evaluation          | Quality & Reliability         | Measure AI performance             |
+| 07 | ⚙️ LLMOps              | Deployment & Infrastructure   | Operate AI in production           |
+| 08 | ⚡ Inference            | Performance & Scaling         | Optimize LLM serving               |
+| 09 | 🔐 Security            | AI Threats & Protection       | Secure AI systems                  |
+| 10 | 📊 Observability       | Monitoring & Cost             | Operate AI reliably                |
+| 11 | 🚀 Production Projects | End-to-End Systems            | Prove the skills                   |
 
 ---
 
 # 01 · 🧠 LLM Foundations
 
-### 🎓 Primary Resource
+## 🎓 Primary Resource
 
 **LLMs Mastery: Complete Guide to Transformers & Generative AI**
 
 [🎓 Udemy Course](https://www.udemy.com/course/llms-mastery-complete-guide-to-transformers-generative-ai/)
 
-### What I Will Learn
+### 📚 What I Will Learn
 
 * [ ] Transformers
 * [ ] Attention
@@ -132,7 +139,7 @@ By the end, I want to be able to **design, build, deploy, scale, monitor, secure
 
 ### 🎯 Engineering Outcome
 
-Understand **what happens inside an LLM**, how models are trained/fine-tuned, and how model size, memory, and computation affect deployment.
+Understand what happens inside an LLM, how models are trained and fine-tuned, and how model size, memory, and computation affect deployment.
 
 ---
 
@@ -145,9 +152,9 @@ Learn only the GPU concepts required for LLM engineering.
 * [ ] Model size — 7B / 8B / 70B
 * [ ] Why LLMs need GPUs
 * [ ] Quantization
-* [ ] Basic inference
+* [ ] Basic LLM inference
 
-**Resources**
+### Resources
 
 [🎥 CPU vs GPU for LLM Inference](https://www.youtube.com/results?search_query=CPU+vs+GPU+LLM+inference+beginner)
 
@@ -157,9 +164,9 @@ Learn only the GPU concepts required for LLM engineering.
 
 ---
 
-# 02 · 📚 RAG Engineering
+# 02 · 📚 RAG & Agentic AI
 
-### 🎓 Primary Resource
+## 🎓 Primary Resource
 
 **Ultimate RAG Bootcamp Using LangChain, LangGraph & LangSmith**
 
@@ -167,7 +174,7 @@ Learn only the GPU concepts required for LLM engineering.
 
 ---
 
-### 🔎 Retrieval-Augmented Generation
+## 🔎 Retrieval-Augmented Generation
 
 * [ ] Document loading
 * [ ] Chunking
@@ -180,7 +187,9 @@ Learn only the GPU concepts required for LLM engineering.
 * [ ] Query transformation
 * [ ] Multimodal RAG
 
-### 🤖 Agentic AI
+---
+
+## 🤖 Agentic AI
 
 * [ ] LangChain
 * [ ] LangGraph
@@ -192,7 +201,9 @@ Learn only the GPU concepts required for LLM engineering.
 * [ ] Agentic RAG
 * [ ] Multi-agent systems
 
-### 📊 Evaluation
+---
+
+## 📊 Evaluation
 
 * [ ] LangSmith
 * [ ] RAG evaluation
@@ -202,15 +213,15 @@ Learn only the GPU concepts required for LLM engineering.
 
 ### 🎯 Engineering Outcome
 
-Build systems where an LLM can **retrieve knowledge, reason over information, use tools, and execute multi-step workflows.**
+Build systems where an LLM can:
+
+**Retrieve knowledge → reason over information → use tools → execute multi-step workflows.**
 
 ---
 
 # 03 · 🔌 MCP — Model Context Protocol
 
-### 🎥 Learning Stage
-
-After RAG and Agentic AI, learn how AI systems connect to external tools and data through MCP.
+After learning RAG and Agentic AI, learn how AI systems connect to external tools and data through MCP.
 
 ### Topics
 
@@ -227,13 +238,17 @@ After RAG and Agentic AI, learn how AI systems connect to external tools and dat
 
 ### 🎯 Engineering Outcome
 
-Understand how agents can interact with **external tools, services, databases, and applications** through a standardized protocol.
+Understand how agents interact with:
+
+**External tools + services + databases + applications**
+
+through a standardized protocol.
 
 ---
 
 # 04 · 🏗️ AI Architecture
 
-The goal here is to understand how all the components fit together.
+The goal is to understand how all the components fit together.
 
 ```text
                          ┌─────────────┐
@@ -245,14 +260,14 @@ The goal here is to understand how all the components fit together.
                          │    AGENT    │
                          └──────┬──────┘
                                 │
-                 ┌──────────────┼──────────────┐
-                 │              │              │
-                 ▼              ▼              ▼
-              ┌─────┐        ┌─────┐       ┌──────┐
-              │ RAG │        │ MCP │       │Tools │
-              └──┬──┘        └──┬──┘       └───┬──┘
-                 │              │              │
-                 └──────────────┼──────────────┘
+              ┌─────────────────┼─────────────────┐
+              │                 │                 │
+              ▼                 ▼                 ▼
+          ┌───────┐         ┌───────┐         ┌───────┐
+          │  RAG  │         │  MCP  │         │ Tools │
+          └───┬───┘         └───┬───┘         └───┬───┘
+              │                 │                 │
+              └─────────────────┼─────────────────┘
                                 ▼
                          ┌─────────────┐
                          │     LLM     │
@@ -270,7 +285,7 @@ The goal here is to understand how all the components fit together.
                          │Observability│
                          └──────┬──────┘
                                 ▼
-                         ☁️ PRODUCTION
+                          ☁️ PRODUCTION
 ```
 
 [🎥 Production Agentic AI Architecture](https://www.youtube.com/results?search_query=production+agentic+AI+system+architecture+MCP+RAG)
@@ -309,13 +324,13 @@ to:
 
 # 06 · ⚙️ LLMOps & AIOps
 
-### 🎓 Primary Resource
+## 🎓 Primary Resource
 
 **LLMOps & AIOps Bootcamp With 8 End-to-End Projects**
 
 [🎓 Udemy Course](https://www.udemy.com/course/llmops-and-aiops-bootcamp-with-9-end-to-end-projects/)
 
-### Production Engineering
+### 🚀 Production Engineering
 
 * [ ] LLM deployment
 * [ ] Docker
@@ -352,7 +367,7 @@ Therefore:
 
 > **Generic DevOps → Review quickly**
 
-Focus on:
+Focus deeply on:
 
 > **LLM-specific production engineering**
 
@@ -360,7 +375,7 @@ Focus on:
 
 # 07 · ⚡ Modern LLM Inference
 
-### 🎓 Primary Resource
+## 🎓 Primary Resource
 
 **LLMOps: How LLMs Are Deployed and Scaled in Production**
 
@@ -382,7 +397,7 @@ Focus on:
 * [ ] Inference optimization
 * [ ] Cost optimization
 
-### Optional
+### 🎓 Optional Supplement
 
 **Fast & Efficient LLM Inference with vLLM**
 
@@ -392,7 +407,7 @@ Focus on:
 
 # 08 · 🔐 AI Security
 
-### 🎓 Primary Resource
+## 🎓 Primary Resource
 
 **Generative AI Risks & Cybersecurity: LLM Security**
 
@@ -419,13 +434,13 @@ Build AI systems that are not only intelligent, but also **secure and controllab
 
 # 09 · 📊 LLM Observability & Cost
 
-### 🎓 Primary Resource
+## 🎓 Primary Resource
 
 **LLM Observability and Cost Management: Langfuse, Monitoring**
 
 [🎓 Udemy Course](https://www.udemy.com/course/llm-observability-cost/)
 
-### Learn
+### 🔍 Learn
 
 * [ ] Langfuse
 * [ ] Tracing
@@ -441,70 +456,76 @@ Build AI systems that are not only intelligent, but also **secure and controllab
 
 ### 🎯 Engineering Outcome
 
-Understand **what the AI system is doing in production**, why it is failing, how much it costs, and where performance can be improved.
+Understand:
+
+**What is happening? → Why is it failing? → How much does it cost? → How can it be improved?**
 
 ---
 
-# 10 · 🚀 Production Projects
+# 🚀 10 · Production Projects
 
 > **Courses teach concepts. Projects prove engineering ability.**
+
+The projects are designed to progressively increase in complexity.
 
 ---
 
 ## 🏗️ Project 01 — Production RAG
 
 ```text
-                DOCUMENTS
-                    │
-                    ▼
-                CHUNKING
-                    │
-                    ▼
-                EMBEDDINGS
-                    │
-                    ▼
-               VECTOR DB
-                    │
-                    ▼
-             HYBRID RETRIEVAL
-                    │
-                    ▼
-                RERANKING
-                    │
-                    ▼
-                   LLM
-                    │
-                    ▼
-                 ANSWER
+                    DOCUMENTS
+                        │
+                        ▼
+                    CHUNKING
+                        │
+                        ▼
+                    EMBEDDINGS
+                        │
+                        ▼
+                    VECTOR DB
+                        │
+                        ▼
+                 HYBRID RETRIEVAL
+                        │
+                        ▼
+                    RERANKING
+                        │
+                        ▼
+                       LLM
+                        │
+                        ▼
+                     ANSWER
 ```
 
 ### Production Requirements
 
-* Retrieval
-* Hybrid search
-* Reranking
-* Evaluation
-* Observability
-* Security
-* Cost tracking
+* [ ] Document ingestion
+* [ ] Retrieval
+* [ ] Vector database
+* [ ] Hybrid search
+* [ ] Reranking
+* [ ] Evaluation
+* [ ] Observability
+* [ ] Security
+* [ ] Cost tracking
 
 ---
 
-## 🤖 Project 02 — Tool-Using Agent + MCP
+# 🤖 Project 02 — Tool-Using Agent + MCP
 
 ```text
                          USER
                            │
                            ▼
-                        AGENT
+                         AGENT
                            │
-             ┌─────────────┼─────────────┐
-             ▼             ▼             ▼
-          RAG Tool     Database Tool   API Tool
-             │             │             │
-             └─────────────┼─────────────┘
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+      RAG Tool        Database Tool      API Tool
+          │                │                │
+          └────────────────┼────────────────┘
                            ▼
-                      MCP Servers
+                       MCP Servers
                            │
                            ▼
                     Final Response
@@ -512,46 +533,58 @@ Understand **what the AI system is doing in production**, why it is failing, how
 
 ### Production Requirements
 
-* Tool calling
-* MCP
-* State
-* Memory
-* Permissions
-* Human approval
-* Logging
-* Evaluation
+* [ ] Tool calling
+* [ ] MCP
+* [ ] State
+* [ ] Memory
+* [ ] Permissions
+* [ ] Human approval
+* [ ] Logging
+* [ ] Evaluation
 
 ---
 
-## 🧠 Project 03 — Agentic RAG / Multi-Agent System
+# 🧠 Project 03 — Agentic RAG / Multi-Agent System
 
 ```text
-                    USER
-                      │
-                      ▼
-                ORCHESTRATOR
-                      │
-        ┌─────────────┼─────────────┐
-        ▼             ▼             ▼
-    Researcher     Retriever      Analyst
-        │             │             │
-        └─────────────┼─────────────┘
-                      ▼
-                   SYNTHESIS
-                      │
-                      ▼
-                   RESPONSE
+                         USER
+                           │
+                           ▼
+                     ORCHESTRATOR
+                           │
+            ┌──────────────┼──────────────┐
+            ▼              ▼              ▼
+       RESEARCHER      RETRIEVER       ANALYST
+            │              │              │
+            └──────────────┼──────────────┘
+                           ▼
+                       SYNTHESIS
+                           │
+                           ▼
+                        RESPONSE
 ```
 
 ### Technologies
 
 `RAG` · `LangGraph` · `Agents` · `MCP` · `Tool Calling` · `Evaluation` · `Human-in-the-Loop`
 
+### Production Requirements
+
+* [ ] Multi-agent orchestration
+* [ ] Specialized agents
+* [ ] Tool calling
+* [ ] RAG
+* [ ] MCP
+* [ ] Evaluation
+* [ ] Human-in-the-loop
+* [ ] Observability
+* [ ] Security
+
 ---
 
 # ⚡ Project 04 — Production LLM Service
 
-## Application
+## Application Architecture
 
 ```text
 USER
@@ -575,137 +608,295 @@ GPU
 ## Production Platform
 
 ```text
-                    ┌──────────┐
-                    │   Git    │
-                    └────┬─────┘
-                         ▼
-                    ┌──────────┐
-                    │ CI / CD  │
-                    └────┬─────┘
-                         ▼
-                    ┌──────────┐
-                    │  Docker  │
-                    └────┬─────┘
-                         ▼
-                  ┌──────────────┐
-                  │ Kubernetes   │
-                  └──────┬───────┘
-                         ▼
-                       CLOUD
-                         │
-             ┌───────────┼───────────┐
-             ▼           ▼           ▼
-         Autoscale   Monitoring   Logging
-                                     │
-                                     ▼
-                                  Tracing
+                         Git
+                          │
+                          ▼
+                        CI/CD
+                          │
+                          ▼
+                        Docker
+                          │
+                          ▼
+                     Kubernetes
+                          │
+                          ▼
+                         Cloud
+                          │
+             ┌────────────┼────────────┐
+             ▼            ▼            ▼
+        Autoscaling   Monitoring    Logging
+                                      │
+                                      ▼
+                                   Tracing
 ```
 
 ### Production Requirements
 
-* CI/CD
-* Containerization
-* Kubernetes
-* GPU deployment
-* Autoscaling
-* Monitoring
-* Logging
-* Tracing
-* Security
-* Cost optimization
-* Rollback / reliability
+* [ ] CI/CD
+* [ ] Containerization
+* [ ] Kubernetes
+* [ ] GPU deployment
+* [ ] Autoscaling
+* [ ] Monitoring
+* [ ] Logging
+* [ ] Tracing
+* [ ] Security
+* [ ] Cost optimization
+* [ ] Rollback / reliability
+
+---
+
+# ☕ Project 05 — Spring AI + Google Cloud Vector Search + Semantic RAG
+
+> **Connect modern LLM engineering with production Java/Spring backend engineering.**
+
+This project demonstrates how to build a semantic-search-powered RAG application using **Spring Boot + Spring AI + Google Cloud Vector Search**.
+
+## 🏗️ Architecture
+
+```text
+                              USER
+                                │
+                                ▼
+                         Spring Boot API
+                                │
+                                ▼
+                           Spring AI
+                                │
+                 ┌──────────────┴──────────────┐
+                 │                             │
+                 ▼                             ▼
+          Embedding Model                 Chat Model
+                 │                             │
+                 ▼                             │
+      Google Cloud Vector Search               │
+                 │                             │
+                 ▼                             │
+       Semantic Similarity Search              │
+                 │                             │
+                 ▼                             │
+        Relevant Documents / Chunks             │
+                 │                             │
+                 └──────────────┬──────────────┘
+                                ▼
+                         Grounded Context
+                                │
+                                ▼
+                               LLM
+                                │
+                                ▼
+                         Final Response
+```
+
+## 🔧 Technologies
+
+* [ ] Java
+* [ ] Spring Boot
+* [ ] Spring AI
+* [ ] Embedding models
+* [ ] Semantic search
+* [ ] Google Cloud Vector Search
+* [ ] Vector similarity
+* [ ] RAG
+* [ ] Metadata filtering
+* [ ] Grounded generation
+
+## 🧪 Engineering Requirements
+
+* [ ] Document ingestion
+* [ ] Chunking strategy
+* [ ] Embedding generation
+* [ ] Vector indexing
+* [ ] Semantic retrieval
+* [ ] Context injection
+* [ ] Grounded responses
+* [ ] Retrieval evaluation
+* [ ] Error handling
+* [ ] Observability
+* [ ] Security
+* [ ] Cost monitoring
+
+## 🎯 Why This Project?
+
+This project connects:
+
+```text
+Existing Backend Skills
+        +
+Java / Spring Boot
+        +
+Spring AI
+        +
+Vector Search
+        +
+Semantic Retrieval
+        +
+RAG
+        +
+LLM Engineering
+        ↓
+Production AI Application
+```
+
+It demonstrates that LLM engineering can be integrated into a **real production backend ecosystem**, rather than being limited to standalone AI prototypes.
 
 ---
 
 # 🏆 Final Capability Matrix
 
-| Domain            | Capability                        |
-| ----------------- | --------------------------------- |
-| 🧠 LLM            | Understand Transformer-based LLMs |
-| 🔧 Fine-Tuning    | LoRA, QLoRA, PEFT                 |
-| ⚡ Optimization    | Quantization, FlashAttention      |
-| 📚 RAG            | Advanced retrieval systems        |
-| 🔎 Search         | Hybrid search + reranking         |
-| 🤖 Agents         | Tool-using & multi-agent systems  |
-| 🔌 MCP            | AI-to-tool integration            |
-| 📏 Evaluation     | RAG & agent evaluation            |
-| ⚙️ LLMOps         | Production deployment             |
-| ☁️ Cloud          | AWS / GCP                         |
-| ☸️ Infrastructure | Docker + Kubernetes               |
-| 🚀 Inference      | vLLM + GPU serving                |
-| 📈 Scaling        | Autoscaling & performance         |
-| 🔐 Security       | AI-specific security              |
-| 📊 Observability  | Tracing, monitoring & alerting    |
-| 💰 Optimization   | Latency & cost optimization       |
-| 🏗️ Architecture  | End-to-end AI system design       |
+| Domain               | Capability                                |
+| -------------------- | ----------------------------------------- |
+| 🧠 LLM               | Transformer-based LLM understanding       |
+| 🔧 Fine-Tuning       | LoRA, QLoRA, PEFT                         |
+| ⚡ Model Optimization | Quantization, FlashAttention              |
+| 📚 RAG               | Advanced retrieval systems                |
+| 🔎 Search            | Semantic search, hybrid search, reranking |
+| 🤖 Agents            | Tool-using & multi-agent systems          |
+| 🔌 MCP               | AI-to-tool integration                    |
+| 📏 Evaluation        | RAG & agent evaluation                    |
+| ⚙️ LLMOps            | Production deployment                     |
+| ☁️ Cloud             | AWS / GCP                                 |
+| ☸️ Infrastructure    | Docker + Kubernetes                       |
+| 🚀 Inference         | vLLM + GPU serving                        |
+| 📈 Scaling           | Autoscaling & performance optimization    |
+| 🔐 Security          | AI-specific security                      |
+| 📊 Observability     | Tracing, monitoring & alerting            |
+| 💰 Optimization      | Latency & cost optimization               |
+| ☕ Enterprise AI      | Spring AI + Spring Boot                   |
+| 🔍 Semantic AI       | Embeddings + Vector Search                |
+| 🏗️ Architecture     | End-to-end AI system design               |
 
 ---
 
-# 🧩 My Engineering Stack
+# 🧩 Complete Engineering Stack
 
 ```text
-                 ┌───────────────────────┐
-                 │       AI SYSTEM       │
-                 └───────────┬───────────┘
-                             │
-       ┌─────────────────────┼─────────────────────┐
-       │                     │                     │
-       ▼                     ▼                     ▼
-    🧠 LLM                🤖 Agents              📚 RAG
-       │                     │                     │
-       └─────────────────────┼─────────────────────┘
-                             │
-                             ▼
-                          🔌 MCP
-                             │
-                             ▼
-                      📏 Evaluation
-                             │
-                             ▼
-                         ⚙️ LLMOps
-                             │
-              ┌──────────────┼──────────────┐
-              ▼              ▼              ▼
-           ☁️ Cloud       ☸️ K8s        ⚡ vLLM
-              │              │              │
-              └──────────────┼──────────────┘
-                             │
-                             ▼
-                    📊 Observability
-                             │
-                             ▼
-                       🔐 Security
-                             │
-                             ▼
-                       🚀 Production
+                         ┌───────────────────────┐
+                         │       AI SYSTEM       │
+                         └───────────┬───────────┘
+                                     │
+           ┌─────────────────────────┼─────────────────────────┐
+           │                         │                         │
+           ▼                         ▼                         ▼
+       🧠 LLM                    📚 RAG                  🤖 Agents
+           │                         │                         │
+           └─────────────────────────┼─────────────────────────┘
+                                     │
+                                     ▼
+                                  🔌 MCP
+                                     │
+                                     ▼
+                              📏 Evaluation
+                                     │
+                                     ▼
+                                 ⚙️ LLMOps
+                                     │
+                  ┌──────────────────┼──────────────────┐
+                  ▼                  ▼                  ▼
+               ☁️ Cloud           ☸️ K8s             ⚡ vLLM
+                  │                  │                  │
+                  └──────────────────┼──────────────────┘
+                                     │
+                                     ▼
+                            📊 Observability
+                                     │
+                                     ▼
+                               🔐 Security
+                                     │
+                                     ▼
+                              ☕ Spring AI
+                                     │
+                                     ▼
+                         🔍 Semantic Vector Search
+                                     │
+                                     ▼
+                              🚀 Production
+```
+
+---
+
+# 🧱 Existing Engineering Foundation
+
+Before this roadmap, I already have experience with:
+
+```text
+Backend Development
+        ↓
+Microservices
+        ↓
+Databases
+        ↓
+Docker
+        ↓
+Kubernetes
+        ↓
+CI/CD
+        ↓
+Cloud
+        ↓
+Git
+        ↓
+Software Architecture
+```
+
+Therefore, this roadmap does **not** aim to relearn general software engineering.
+
+Instead, it focuses on adding:
+
+```text
+LLM Engineering
+        +
+RAG
+        +
+Agentic AI
+        +
+MCP
+        +
+LLMOps
+        +
+LLM Inference
+        +
+AI Security
+        +
+AI Evaluation
+        +
+AI Observability
+        +
+Semantic AI
+        ↓
+Production AI Engineering
 ```
 
 ---
 
 # 📈 Learning Method
 
-I will follow a simple engineering loop:
+I will follow an engineering-first learning loop:
 
 ```text
-       📖 LEARN
-          ↓
-       🧠 UNDERSTAND
-          ↓
-       ❓ QUESTION
-          ↓
-       💻 IMPLEMENT
-          ↓
-       🧪 TEST
-          ↓
-       🚀 DEPLOY
-          ↓
-       📊 MONITOR
-          ↓
-       🔐 SECURE
-          ↓
-       ⚡ OPTIMIZE
-          ↓
-       🔁 REPEAT
+             📖 LEARN
+                ↓
+          🧠 UNDERSTAND
+                ↓
+           ❓ QUESTION
+                ↓
+          💻 IMPLEMENT
+                ↓
+             🧪 TEST
+                ↓
+            🐛 BREAK
+                ↓
+             🔧 FIX
+                ↓
+            🚀 DEPLOY
+                ↓
+          📊 MONITOR
+                ↓
+           🔐 SECURE
+                ↓
+          ⚡ OPTIMIZE
+                ↓
+             🔁 REPEAT
 ```
 
 > **Learn the concept → ask questions → implement it → break it → fix it → deploy it → operate it.**
@@ -722,57 +913,88 @@ A working system is.
 
 ```text
 ❌ Course Completed
-       ↓
-       ↓
-       ↓
-       ❌ "I know AI"
+        ↓
+❌ "I know AI"
+
 
                     VS
 
+
 ✅ Concept Understood
-       ↓
+        ↓
 ✅ System Built
-       ↓
+        ↓
 ✅ Tested
-       ↓
+        ↓
 ✅ Deployed
-       ↓
+        ↓
 ✅ Monitored
-       ↓
+        ↓
 ✅ Secured
-       ↓
+        ↓
 ✅ Optimized
-       ↓
+        ↓
 🏆 Production Skill
 ```
 
 ---
 
-# 🚀 Final Destination
+# 🚀 From Learning to Production
+
+Every major concept should eventually become part of a real system.
 
 ```text
-                LEARN
-                  ↓
-             UNDERSTAND
-                  ↓
-               BUILD
-                  ↓
-               TEST
-                  ↓
-              DEPLOY
-                  ↓
-               SCALE
-                  ↓
-              MONITOR
-                  ↓
-               SECURE
-                  ↓
-              OPTIMIZE
-                  ↓
-             MAINTAIN
-                  ↓
-          🏆 PRODUCTION AI
-             ENGINEER
+                 CONCEPT
+                    │
+                    ▼
+              SMALL PROJECT
+                    │
+                    ▼
+             PRODUCTION DESIGN
+                    │
+                    ▼
+                 DEPLOY
+                    │
+                    ▼
+                OBSERVE
+                    │
+                    ▼
+                 SECURE
+                    │
+                    ▼
+                OPTIMIZE
+                    │
+                    ▼
+             PORTFOLIO PROJECT
+```
+
+---
+
+# 🏁 Final Destination
+
+```text
+                    LEARN
+                      ↓
+                 UNDERSTAND
+                      ↓
+                    BUILD
+                      ↓
+                    TEST
+                      ↓
+                   DEPLOY
+                      ↓
+                    SCALE
+                      ↓
+                  MONITOR
+                      ↓
+                   SECURE
+                      ↓
+                  OPTIMIZE
+                      ↓
+                  MAINTAIN
+                      ↓
+               🏆 PRODUCTION
+                 AI ENGINEER
 ```
 
 > ### **The objective is not to become someone who knows how LLMs work.**
@@ -781,8 +1003,36 @@ A working system is.
 
 ---
 
-## 🏁 End Goal
+# 🎯 End Goal
 
-**LLM Engineering + RAG + Agentic AI + MCP + LLMOps + Inference + Security + Observability + Production Engineering**
+```text
+LLM Engineering
+      +
+RAG
+      +
+Agentic AI
+      +
+MCP
+      +
+LLMOps
+      +
+Modern Inference
+      +
+AI Security
+      +
+Evaluation
+      +
+Observability
+      +
+Semantic AI
+      +
+Spring AI
+      +
+Production Engineering
+      │
+      ▼
+🏆 Production-Ready
+LLM & Agentic AI Engineer
+```
 
-### → **Production-Ready LLM & Agentic AI Engineer 🚀**
+## 🚀 Build Systems. Not Just Courses.
